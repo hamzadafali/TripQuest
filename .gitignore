@@ -1,0 +1,24 @@
+# IDE and OS metadata
+.idea/
+*.iml
+.DS_Store
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Java
+*.class
+out/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Logs and temporary files
+*.log
+*.tmp
